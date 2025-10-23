@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA112F022EA9E8F300BA73CB /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EA112F012EA9E8F300BA73CB /* AppAuth */; };
+		EA112F042EA9E8F300BA73CB /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = EA112F032EA9E8F300BA73CB /* AppAuthCore */; };
+		EA112F062EA9E8F300BA73CB /* AppAuthTV in Frameworks */ = {isa = PBXBuildFile; productRef = EA112F052EA9E8F300BA73CB /* AppAuthTV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1B799B2EA9E37D006B5DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1B797C2EA9E37B006B5DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1B79832EA9E37B006B5DF4;
+			remoteInfo = DemoAuthCloudApper;
+		};
+		EA1B79A52EA9E37D006B5DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1B797C2EA9E37B006B5DF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1B79832EA9E37B006B5DF4;
+			remoteInfo = DemoAuthCloudApper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1B79842EA9E37B006B5DF4 /* DemoAuthCloudApper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAuthCloudApper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1B799A2EA9E37D006B5DF4 /* DemoAuthCloudApperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthCloudApperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1B79A42EA9E37D006B5DF4 /* DemoAuthCloudApperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAuthCloudApperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EA1B79AC2EA9E37D006B5DF4 /* Exceptions for "DemoAuthCloudApper" folder in "DemoAuthCloudApper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EA1B79832EA9E37B006B5DF4 /* DemoAuthCloudApper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EA1B79862EA9E37B006B5DF4 /* DemoAuthCloudApper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EA1B79AC2EA9E37D006B5DF4 /* Exceptions for "DemoAuthCloudApper" folder in "DemoAuthCloudApper" target */,
+			);
+			path = DemoAuthCloudApper;
+			sourceTree = "<group>";
+		};
+		EA1B799D2EA9E37D006B5DF4 /* DemoAuthCloudApperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoAuthCloudApperTests;
+			sourceTree = "<group>";
+		};
+		EA1B79A72EA9E37D006B5DF4 /* DemoAuthCloudApperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DemoAuthCloudApperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1B79812EA9E37B006B5DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA112F062EA9E8F300BA73CB /* AppAuthTV in Frameworks */,
+				EA112F022EA9E8F300BA73CB /* AppAuth in Frameworks */,
+				EA112F042EA9E8F300BA73CB /* AppAuthCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79972EA9E37D006B5DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79A12EA9E37D006B5DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1B797B2EA9E37B006B5DF4 = {
+			isa = PBXGroup;
+			children = (
+				EA1B79862EA9E37B006B5DF4 /* DemoAuthCloudApper */,
+				EA1B799D2EA9E37D006B5DF4 /* DemoAuthCloudApperTests */,
+				EA1B79A72EA9E37D006B5DF4 /* DemoAuthCloudApperUITests */,
+				EA1B79852EA9E37B006B5DF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1B79852EA9E37B006B5DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B79842EA9E37B006B5DF4 /* DemoAuthCloudApper.app */,
+				EA1B799A2EA9E37D006B5DF4 /* DemoAuthCloudApperTests.xctest */,
+				EA1B79A42EA9E37D006B5DF4 /* DemoAuthCloudApperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1B79832EA9E37B006B5DF4 /* DemoAuthCloudApper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B79AD2EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApper" */;
+			buildPhases = (
+				EA1B79802EA9E37B006B5DF4 /* Sources */,
+				EA1B79812EA9E37B006B5DF4 /* Frameworks */,
+				EA1B79822EA9E37B006B5DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EA1B79862EA9E37B006B5DF4 /* DemoAuthCloudApper */,
+			);
+			name = DemoAuthCloudApper;
+			packageProductDependencies = (
+				EA112F012EA9E8F300BA73CB /* AppAuth */,
+				EA112F032EA9E8F300BA73CB /* AppAuthCore */,
+				EA112F052EA9E8F300BA73CB /* AppAuthTV */,
+			);
+			productName = DemoAuthCloudApper;
+			productReference = EA1B79842EA9E37B006B5DF4 /* DemoAuthCloudApper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1B79992EA9E37D006B5DF4 /* DemoAuthCloudApperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B79B22EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApperTests" */;
+			buildPhases = (
+				EA1B79962EA9E37D006B5DF4 /* Sources */,
+				EA1B79972EA9E37D006B5DF4 /* Frameworks */,
+				EA1B79982EA9E37D006B5DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1B799C2EA9E37D006B5DF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA1B799D2EA9E37D006B5DF4 /* DemoAuthCloudApperTests */,
+			);
+			name = DemoAuthCloudApperTests;
+			packageProductDependencies = (
+			);
+			productName = DemoAuthCloudApperTests;
+			productReference = EA1B799A2EA9E37D006B5DF4 /* DemoAuthCloudApperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1B79A32EA9E37D006B5DF4 /* DemoAuthCloudApperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B79B52EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApperUITests" */;
+			buildPhases = (
+				EA1B79A02EA9E37D006B5DF4 /* Sources */,
+				EA1B79A12EA9E37D006B5DF4 /* Frameworks */,
+				EA1B79A22EA9E37D006B5DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1B79A62EA9E37D006B5DF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EA1B79A72EA9E37D006B5DF4 /* DemoAuthCloudApperUITests */,
+			);
+			name = DemoAuthCloudApperUITests;
+			packageProductDependencies = (
+			);
+			productName = DemoAuthCloudApperUITests;
+			productReference = EA1B79A42EA9E37D006B5DF4 /* DemoAuthCloudApperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1B797C2EA9E37B006B5DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EA1B79832EA9E37B006B5DF4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EA1B79992EA9E37D006B5DF4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EA1B79832EA9E37B006B5DF4;
+					};
+					EA1B79A32EA9E37D006B5DF4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EA1B79832EA9E37B006B5DF4;
+					};
+				};
+			};
+			buildConfigurationList = EA1B797F2EA9E37B006B5DF4 /* Build configuration list for PBXProject "DemoAuthCloudApper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1B797B2EA9E37B006B5DF4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EA112F002EA9E87F00BA73CB /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA1B79852EA9E37B006B5DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1B79832EA9E37B006B5DF4 /* DemoAuthCloudApper */,
+				EA1B79992EA9E37D006B5DF4 /* DemoAuthCloudApperTests */,
+				EA1B79A32EA9E37D006B5DF4 /* DemoAuthCloudApperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1B79822EA9E37B006B5DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79982EA9E37D006B5DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79A22EA9E37D006B5DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1B79802EA9E37B006B5DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79962EA9E37D006B5DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B79A02EA9E37D006B5DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1B799C2EA9E37D006B5DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1B79832EA9E37B006B5DF4 /* DemoAuthCloudApper */;
+			targetProxy = EA1B799B2EA9E37D006B5DF4 /* PBXContainerItemProxy */;
+		};
+		EA1B79A62EA9E37D006B5DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1B79832EA9E37B006B5DF4 /* DemoAuthCloudApper */;
+			targetProxy = EA1B79A52EA9E37D006B5DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA1B79AE2EA9E37D006B5DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoAuthCloudApper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1B79AF2EA9E37D006B5DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoAuthCloudApper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA1B79B02EA9E37D006B5DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA1B79B12EA9E37D006B5DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1B79B32EA9E37D006B5DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAuthCloudApper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoAuthCloudApper";
+			};
+			name = Debug;
+		};
+		EA1B79B42EA9E37D006B5DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAuthCloudApper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoAuthCloudApper";
+			};
+			name = Release;
+		};
+		EA1B79B62EA9E37D006B5DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAuthCloudApper;
+			};
+			name = Debug;
+		};
+		EA1B79B72EA9E37D006B5DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35UJ8936GH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CloudApper.DemoAuthCloudApperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAuthCloudApper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1B797F2EA9E37B006B5DF4 /* Build configuration list for PBXProject "DemoAuthCloudApper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B79B02EA9E37D006B5DF4 /* Debug */,
+				EA1B79B12EA9E37D006B5DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1B79AD2EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B79AE2EA9E37D006B5DF4 /* Debug */,
+				EA1B79AF2EA9E37D006B5DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1B79B22EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B79B32EA9E37D006B5DF4 /* Debug */,
+				EA1B79B42EA9E37D006B5DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1B79B52EA9E37D006B5DF4 /* Build configuration list for PBXNativeTarget "DemoAuthCloudApperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B79B62EA9E37D006B5DF4 /* Debug */,
+				EA1B79B72EA9E37D006B5DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA112F002EA9E87F00BA73CB /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA112F012EA9E8F300BA73CB /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA112F002EA9E87F00BA73CB /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		EA112F032EA9E8F300BA73CB /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA112F002EA9E87F00BA73CB /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		EA112F052EA9E8F300BA73CB /* AppAuthTV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA112F002EA9E87F00BA73CB /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthTV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA1B797C2EA9E37B006B5DF4 /* Project object */;
+}
