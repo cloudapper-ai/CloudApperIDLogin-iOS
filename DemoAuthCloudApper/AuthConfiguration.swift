@@ -16,6 +16,6 @@ struct AuthConfiguration {
     static let clientSecret = "" // The client secret (often empty for public clients like mobile apps).
     static let callbackUrl = "" // The redirect URI the provider sends the authorization code to (must be registered).
     static let logoutCallbackUrl = "" // The redirect URI the provider sends the user to after logging out.
-    static let servicename = "" // A service name, often used for showing branding app .
+    static let servicename = "" // A service name, often used for showing branding app, if not provided make it empty .
     static let responseType = ""
 }

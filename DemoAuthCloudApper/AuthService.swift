@@ -78,21 +78,19 @@ class AuthService {
         print("🚀 Starting authorization request (Step 1)...")
 
         // --- Step 1: Present the Authorization Request ---
-        currentAuthorizationFlow = OIDAuthorizationService.present(request, externalUserAgent: agent) { [weak self] response, error in
-
+        currentAuthorizationFlow = OIDAuthState.authState(byPresenting: request, externalUserAgent: agent) { [weak self] authState, error in
             guard let self = self else { return }
-
-            if let response = response {
-                print("✅ Authorization successful (Step 1). Received code.")
-                if let idToken = response.idToken {
-                    print("   ID Token: \(idToken)")
-                }
-
-                // --- Step 2: Manually Perform Token Exchange ---
-                self.performTokenExchange(response: response, completion: completion)
+            if let authSate = authState {
+                self.setAuthState(authSate)
+                print("✅ Token exchange successful (Step 2).")
+                print("✅ AccessToken: \(authSate.lastTokenResponse?.accessToken ?? "nil")")
+                print("✅ RefreshToken: \(authSate.lastTokenResponse?.refreshToken ?? "nil")")
+                print("✅ IdToken: \(authSate.lastTokenResponse?.idToken ?? "nil")")
+                completion(.success(()))
 
             } else if let error = error {
-                print("❌ Authorization error (Step 1): \(error.localizedDescription)")
+                // Token exchange failed - this is often a server-side config issue
+                print("❌ Token exchange error (Step 2): \(error.localizedDescription)")
                 self.clearState()
                 completion(.failure(error))
             }
@@ -143,43 +141,6 @@ class AuthService {
             print("✅ Logout complete. Clearing local state.")
             self?.clearState()
             completion(error)
-        }
-    }
-
-    // MARK: - Private Helpers
-
-    /**
-     * Performs the token exchange (Step 2 of the login flow).
-     */
-    private func performTokenExchange(response: OIDAuthorizationResponse, completion: @escaping (Result<Void, Error>) -> Void) {
-        guard let tokenExchangeRequest = response.tokenExchangeRequest() else {
-            print("❌ Error creating token exchange request")
-            let error = NSError(domain: "com.cloudapper.error", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to create token request."])
-            completion(.failure(error))
-            return
-        }
-
-        print("🚀 Performing token exchange (Step 2)...")
-
-        OIDAuthorizationService.perform(tokenExchangeRequest) { [weak self] tokenResponse, tokenError in
-
-            guard let self = self else { return }
-
-            if let tokenResponse = tokenResponse {
-                // Success! Create and save the final authState
-                let finalAuthState = OIDAuthState(authorizationResponse: response, tokenResponse: tokenResponse)
-                self.setAuthState(finalAuthState)
-
-                print("✅ Token exchange successful (Step 2).")
-                print("   AccessToken: \(tokenResponse.accessToken ?? "nil")")
-                completion(.success(()))
-
-            } else if let tokenError = tokenError {
-                // Token exchange failed - this is often a server-side config issue
-                print("❌ Token exchange error (Step 2): \(tokenError.localizedDescription)")
-                self.clearState()
-                completion(.failure(tokenError))
-            }
         }
     }
 

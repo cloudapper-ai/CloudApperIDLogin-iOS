@@ -11,8 +11,8 @@
 			<string>DemoAuthCloudApper</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.cloudapper.auth</string>
-				<string>com.cloudapper.auth2</string>
+				<string>com.ca.play.auth</string>
+				<string>com.ca.play.auth</string>
 			</array>
 		</dict>
 	</array>
